@@ -158,8 +158,8 @@ hr {
   margin: 0;
 }
 
-.web-resources-nav {
-  padding: 50px;
+.card2 ul {
+  margin-left: 30px;
 }
 
 footer {
@@ -168,3 +168,18 @@ footer {
   text-align: center;
   padding: 18px;
 }
+
+.card2 ul {
+  margin-top: 2rem; 
+  padding-left: 0;   
+  list-style-position: inside;
+}
+
+.fix {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex: 1;
+
+}
+
