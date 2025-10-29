@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+header {
+  appearance: none;
+}
+
 #course-title {
   width: auto;
   display: block;
