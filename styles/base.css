@@ -136,7 +136,7 @@ h1 {
   grid-template-areas:
     "guate guate guate guate"
     "hrule hrule hrule hrule"
-    "flag info info placeholder";
+    "flag info info info";
   align-items: end;
 }
 
@@ -159,6 +159,7 @@ hr {
 
 .grid-container2 p {
   grid-area: info;
+  align-self: center;
   margin: 0;
 }
 
