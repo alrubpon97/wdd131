@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 1200px;
+  height: 1300px;
+  margin: 0 auto;
+}
+
+#course-title {
+  width: auto;
+  display: block;
+  text-align: center;
+  background-color: #4646c8;
+  color: white;
+  padding: 18px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  color: white;
+  background-color: rgb(87, 82, 82);
+  /*   text-decoration: none; */
+  padding: 10px;
+}
+
+header a:link {
+  color: white;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: white;
+}
+
+header a:hover {
+  color: rgb(232, 37, 37);
+  font-weight: bold;
+  text-decoration-line: overline;
+}
+
+header a:active {
+  font-style: italic;
+  color: rgb(232, 37, 37);
+}
+
+main {
+  justify-content: center;
+  display: grid;
+  grid-template-areas:
+    "about  web-resourcer"
+    "about  web-resourcer"
+    "about  web-resourcer"
+    "about  web-resourcer";
+  grid-template-columns: 3fr 1fr;
+  gap: 5px;
+}
+
+#about {
+  grid-area: about;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#web-resourcer {
+  grid-area: web-resources;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 200px;
+  margin-left: 35px;
+}
+
+.flag {
+  width: 225px;
+  height: 275px;
+}
+
+h1 {
+  background-color: #4646c8;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.card2 h2 {
+  color: white;
+  background-color: #4646c8;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 15px;
+}
+
+.card {
+  margin: 10px 10px;
+  padding: 0;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.grid-container1 {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-container1 p {
+  align-self: center;
+}
+
+.grid-container2 {
+  margin: 10px;
+  padding: 20px;
+  align-items: flex-end;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "guate guate guate guate"
+    "hrule hrule hrule hrule"
+    "flag info info placeholder";
+  align-items: end;
+}
+
+hr {
+  grid-area: hrule;
+}
+
+.grid-container2 h2 {
+  display: grid;
+  color: black;
+  grid-area: guate;
+  justify-items: center;
+}
+
+.grid-container2 figure {
+  grid-area: flag;
+  margin: 0;
+  text-align: center;
+}
+
+.grid-container2 p {
+  grid-area: info;
+  margin: 0;
+}
+
+.web-resources-nav {
+  padding: 50px;
+}
+
+footer {
+  color: white;
+  background-color: #4646c8;
+  text-align: center;
+  padding: 18px;
+}
