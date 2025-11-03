@@ -90,7 +90,9 @@ figure figcaption {
   justify-items: center;
   align-content: space-evenly;
 }
+
 footer {
+  color: white;
   text-align: center;
   background-color: purple;
 }
