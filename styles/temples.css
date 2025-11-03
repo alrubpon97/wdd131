@@ -65,3 +65,27 @@ h1 {
   padding: 18px;
   text-align: center;
 }
+
+figure {
+  margin: 20px;
+  height: auto;
+}
+figure img {
+  vertical-align: top;
+  max-width: 250px;
+}
+figure figcaption {
+  text-align: center;
+  padding: 5px;
+}
+
+.temple-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: space-evenly;
+}
+footer {
+  text-align: center;
+}
