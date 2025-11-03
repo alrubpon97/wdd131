@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: red;
+}
+
+header {
+  background-color: purple;
+}
+
+.header-nav {
+  display: flex;
+}
+
+#album-span {
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  color: white;
+  padding: 18px;
+}
+
+#nav-menu {
+  padding: 18px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+header a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+/* selected link */
+header a:active {
+  color: orangered;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 18px;
+  text-align: center;
+}
