@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  max-width: 1000px;
+}
+
 header {
   background-color: purple;
 }
