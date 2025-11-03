@@ -10,7 +10,6 @@ body {
   max-width: 1000px;
   height: auto;
   margin: 0 auto;
-  background-color: red;
 }
 
 header {
@@ -67,12 +66,13 @@ h1 {
 }
 
 figure {
-  margin: 20px;
+  margin: 5px;
   height: auto;
 }
 figure img {
-  vertical-align: top;
-  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 figure figcaption {
   text-align: center;
@@ -80,12 +80,15 @@ figure figcaption {
 }
 
 .temple-img {
+  margin: 0px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
   justify-items: center;
   align-content: space-evenly;
 }
 footer {
   text-align: center;
+  background-color: purple;
 }
