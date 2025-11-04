@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .temple-img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -17,18 +17,25 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .header-nav {
+    position: relative;
+    z-index: 1;
+  }
+
+  .show li {
+    display: block;
   }
 
   #menu::before {
     content: "☰";
   }
 
-  #menu.open::before {
-    content: "❌";
-  }
-
-  .header-nav {
-    position: relative;
+  #menu.show::before {
+    content: "X";
   }
 
   /* Hide the nav on small screens by default */
@@ -40,8 +47,10 @@
     left: 0;
     background: purple;
     flex-direction: column;
+    align-items: center;
     gap: 0.75rem;
     padding: 12px 18px;
+    z-index: 999;
   }
 
   /* Show the nav when "open" */

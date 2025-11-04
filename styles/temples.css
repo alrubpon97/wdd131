@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   max-width: 1000px;
+  min-width: 300px;
   height: auto;
   margin: 0 auto;
 }
@@ -34,11 +35,14 @@ header {
 }
 
 #nav-menu {
-  padding: 18px;
-  display: flex;
-  flex: 1;
+  display: flex; /* needed to lay out the <li> horizontally */
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center; /* centers the whole set */
+  gap: 1.25rem; /* space between items */
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 18px;
 }
 
 header a:link {
