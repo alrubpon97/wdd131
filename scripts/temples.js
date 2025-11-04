@@ -1,3 +1,4 @@
+/* Footer JS Code */
 document.getElementById(
   "lastmodified"
 ).innerHTML = `Last Modified On: ${document.lastModified}`;
